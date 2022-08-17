@@ -7,6 +7,7 @@
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>	
 	<textureChoices>clothes\RUB\RUB1_1</textureChoices>
 	<textureChoices>clothes\RUB\RUB1_2</textureChoices>
 	<textureChoices>clothes\RUB\RUB1_3</textureChoices>

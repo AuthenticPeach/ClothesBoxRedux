@@ -1,7 +1,7 @@
 module Base
 {
 
-	item CAPARM_1
+	item CBX_CAPARM_1
 	{
 	    DisplayCategory = Accessory,	
 		Type = Clothing,
@@ -14,7 +14,7 @@ module Base
 		BloodLocation = Head,
 	}
 
-	item CAPARM_2
+	item CBX_CAPARM_2
 	{
 	    DisplayCategory = Accessory,	
 		Type = Clothing,
@@ -27,7 +27,7 @@ module Base
 		BloodLocation = Head,
 	}
 
-	item CAPARM_3
+	item CBX_CAPARM_3
 	{
 	    DisplayCategory = Accessory,	
 		Type = Clothing,
@@ -40,7 +40,7 @@ module Base
 		BloodLocation = Head,
 	}
 
-	item CAPARM_4
+	item CBX_CAPARM_4
 	{
 	    DisplayCategory = Accessory,	
 		Type = Clothing,

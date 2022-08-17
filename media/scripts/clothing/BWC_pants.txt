@@ -1,6 +1,6 @@
 module Base
 {
-    item Trousers_Worker
+    item CBX_Trousers_Worker
     {
        DisplayCategory = Clothing,	
         Type = Clothing,
@@ -17,7 +17,7 @@ module Base
 		WorldStaticModel = WorldItem-Stani_3_Ground,
     }
 
-    item SP2
+    item CBX_SP2
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -33,7 +33,7 @@ module Base
 		WorldStaticModel = WorldItem-Sportstan_Ground,		
     }
 
-    item PAN
+    item CBX_PAN
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -48,7 +48,7 @@ module Base
 		WorldStaticModel = WorldItem-PAN_Ground,		
     }
 
-    item ST2
+    item CBX_ST2
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -64,7 +64,7 @@ module Base
 		WorldStaticModel = WorldItem-Stani_4_Ground,	
     }
 
-    item ST3
+    item CBX_ST3
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -82,7 +82,7 @@ module Base
 		WorldStaticModel = WorldItem-Stani_5_Ground,	
     }
 
-    item ST4
+    item CBX_ST4
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -96,7 +96,7 @@ module Base
         WorldStaticModel = WorldItem-PL1_Ground,	
     }
 
-    item SHO1
+    item CBX_SHO1
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -112,7 +112,7 @@ module Base
         WorldStaticModel = WorldItem-Stockings_Ground,			
     }
 
-    item ST5
+    item CBX_ST5
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -124,128 +124,6 @@ module Base
         FabricType = Cotton,
         Weight = 0.2,
 		WorldStaticModel = WorldItem-PL2_Ground,
-    }
-
-    item Trousers_CamoDesert
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Military Desert Camo Pants,
-        BodyLocation = Pants,
-        Icon = TrousersCamoSand,
-        ClothingItem = Trousers_CamoDesert,
-        ClothingItemExtra = Trousers_CamoDesert2,		
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
-        BloodLocation = Trousers,
-        BiteDefense = 10,
-        ScratchDefense = 20,
-        Insulation = 0.3,
-        WindResistance = 0.1,
-        FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,
-    }
-    item Trousers_CamoDesert2
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Military Desert Camo Pants,
-        BodyLocation = Pants,
-        Icon = TrousersCamoSand,
-        ClothingItem = Trousers_CamoDesert2,
-        ClothingItemExtra = Trousers_CamoDesert,		
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BloodLocation = Trousers,
-        BiteDefense = 10,
-        ScratchDefense = 20,
-        Insulation = 0.3,
-        WindResistance = 0.1,
-        FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,
-    }	
-    item Trousers_CamoGreen
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Military Camo Pants,
-        Icon = TrousersCamoGreen,		
-        ClothingItem = Trousers_CamoGreen,
-        ClothingItemExtra = Trousers_CamoGreen2,		
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,	
-        BodyLocation = Pants,		
-        BloodLocation = Trousers,
-        BiteDefense = 10,
-        ScratchDefense = 20,
-        Insulation = 0.45,
-        WindResistance = 0.3,
-        WaterResistance = 0.45,
-        FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,
-    }
-
-    item Trousers_CamoGreen2
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Military Camo Pants,
-        ClothingItem = Trousers_CamoGreen2,
-        ClothingItemExtra = Trousers_CamoGreen,		
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = Pants,
-        Icon = TrousersCamoGrey,		
-        BloodLocation = Trousers,
-        BiteDefense = 10,
-        ScratchDefense = 20,
-        Insulation = 0.60,
-        WindResistance = 0.30,
-        WaterResistance = 0.35,
-        FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,
-    }
-
-    item Trousers_CamoUrban
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Military Urban Camo Pants,
-        ClothingItem = Trousers_CamoUrban,
-        ClothingItemExtra = Trousers_CamoUrban2,		
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
-        BodyLocation = Pants,
-        Icon = TrousersCamoGrey,		
-        BloodLocation = Trousers,
-        BiteDefense = 10,
-        ScratchDefense = 20,
-        Insulation = 0.60,
-        WindResistance = 0.30,
-        WaterResistance = 0.35,
-        FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,
-    }
-
-    item Trousers_CamoUrban2
-    {
-        DisplayCategory = Clothing,
-        Type = Clothing,
-        DisplayName = Military Urban Camo Pants,
-        ClothingItem = Trousers_CamoUrban2,
-        ClothingItemExtra = Trousers_CamoUrban,		
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = Pants,
-        Icon = TrousersCamoGrey,		
-        BloodLocation = Trousers,
-        BiteDefense = 10,
-        ScratchDefense = 20,
-        Insulation = 0.60,
-        WindResistance = 0.30,
-        WaterResistance = 0.35,
-        FabricType = Cotton,
-        WorldStaticModel = Trousers_Ground,
     }
 
 }

@@ -1,15 +1,15 @@
 module Base
 {
-	item Ras_army
+	item CBX_Ras_army
     {
        DisplayCategory = Bag,
         Type = Container,
-        DisplayName = Army Unloading Vest,
+        DisplayName = Bank Robber Chest Rig,
         ClothingItem = Ras_army,
         Icon = A1_8,
         WeightReduction	=	80,
         Capacity	=	8,
-        ClothingItemExtra = Ras_army,
+        ClothingItemExtra = CBX_Ras_army,
         ClothingItemExtraOption = FannyPack_WearBack,
         CanBeEquipped = 010,
         BloodLocation = Bag,
@@ -18,7 +18,7 @@ module Base
 		WorldStaticModel = WorldItem-Ras_army_Ground,		
     }
 
-	item Ras_ohota
+	item CBX_Ras_ohota
     {
 	    DisplayCategory = Bag,	
         Type = Container,
@@ -27,7 +27,7 @@ module Base
         Icon = A1_9,
         WeightReduction	=	30,
         Capacity	=	15,
-        ClothingItemExtra = Ras_ohota,
+        ClothingItemExtra = CBX_Ras_ohota,
         ClothingItemExtraOption = FannyPack_WearBack,
         BloodLocation = Bag,
         CanBeEquipped = 010,
@@ -36,13 +36,13 @@ module Base
 		WorldStaticModel = WorldItem-Ras_ohota_Ground,	
     }
 
-    item Sumk_1_L
+    item CBX_Sumk_1_L
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	40,
-        ClothingItemExtra = Sumk_1_R,
-        ClothingItemExtraOption = FannyPack_WearBack,
-        clothingExtraSubmenu = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_1_R,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.3,
         Type	=	Container,
         Capacity	=	11,
@@ -58,13 +58,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_1_Ground,	
     }
 
-    item Sumk_1_R
+    item CBX_Sumk_1_R
     {
 	    DisplayCategory = Bag,
         WeightReduction	=	40,
-        ClothingItemExtra = Sumk_1_L,
-        ClothingItemExtraOption = FannyPack_WearFront,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        ClothingItemExtra = CBX_Sumk_1_L,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.3,
         Type	=	Container,
         Capacity	=	11,
@@ -80,13 +80,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_1_Ground,	
     }
 
-    item Sumk_1M_L
+    item CBX_Sumk_1M_L
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	40,
-        ClothingItemExtra = Sumk_1M_R,
-        ClothingItemExtraOption = FannyPack_WearBack,
-        clothingExtraSubmenu = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_1M_R,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.3,
         Type	=	Container,
         Capacity	=	11,
@@ -102,13 +102,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_1_Osn_Ground,
     }
 
-    item Sumk_1M_R
+    item CBX_Sumk_1M_R
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	40,
-        ClothingItemExtra = Sumk_1M_L,
-        ClothingItemExtraOption = FannyPack_WearFront,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        ClothingItemExtra = CBX_Sumk_1M_L,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.3,
         Type	=	Container,
         Capacity	=	11,
@@ -124,13 +124,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_1_Osn_Ground,
     }
 
-    item Sumk_2_L
+    item CBX_Sumk_2_L
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	55,
-        ClothingItemExtra = Sumk_2_R,
-        ClothingItemExtraOption = FannyPack_WearBack,
-        clothingExtraSubmenu = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_2_R,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.9,
         Type	=	Container,
         Capacity	=	15,
@@ -146,14 +146,14 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_2_Ground,
     }
 
-    item Sumk_2_R
+    item CBX_Sumk_2_R
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	55,
-        ClothingItemExtra = Sumk_2_L,
-        ClothingItemExtraOption = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_2_L,
+        ClothingItemExtraOption = SwapSides,
         BloodLocation = Bag,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.9,
         Type	=	Container,
         Capacity	=	15,
@@ -168,7 +168,7 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_2_Ground,
     }
 
-	item HR
+	item CBX_HR
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	90,
@@ -190,13 +190,13 @@ module Base
 		WorldStaticModel = WorldItem-Bag_HR_Ground,			
     }
 
-	item ANAT
+	item CBX_ANAT
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	70,
         Weight	=	2.1,
         Type	=	Container,
-        Capacity	=	40,
+        Capacity	=	35,
         DisplayName	=	Big Bag,
         IconsForTexture = ANAT_1;ANAT_2;ANAT_3;ANAT_4;ANAT_5;ANAT_6;ANAT_7,
         CanBeEquipped = Back,
@@ -212,13 +212,13 @@ module Base
 		WorldStaticModel = WorldItem-Bag_ANAT_Ground,			
     }
 
-    item Sumk_3_L
+    item CBX_Sumk_3_L
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	70,
-        ClothingItemExtra = Sumk_3_R,
-        ClothingItemExtraOption = FannyPack_WearBack,
-        clothingExtraSubmenu = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_3_R,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.8,
         Type	=	Container,
         Capacity	=	15,
@@ -234,13 +234,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_3_Ground,	
     }
 
-    item Sumk_3_R
+    item CBX_Sumk_3_R
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	70,
-        ClothingItemExtra = Sumk_3_L,
-        ClothingItemExtraOption = FannyPack_WearFront,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        ClothingItemExtra = CBX_Sumk_3_L,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.8,
         Type	=	Container,
         Capacity	=	15,
@@ -256,13 +256,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_3_Ground,
     }
 
-    item Sumk_4_L
+    item CBX_Sumk_4_L
     {
 	    DisplayCategory = Bag,	
         WeightReduction	=	55,
-        ClothingItemExtra = Sumk_4_R,
-        ClothingItemExtraOption = FannyPack_WearBack,
-        clothingExtraSubmenu = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_4_R,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.2,
         Type	=	Container,
         Capacity	=	9,
@@ -277,13 +277,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_4_Ground,
     }
 
-    item Sumk_4_R
+    item CBX_Sumk_4_R
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	55,
-        ClothingItemExtra = Sumk_4_L,
-        ClothingItemExtraOption = FannyPack_WearFront,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        ClothingItemExtra = CBX_Sumk_4_L,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.2,
         Type	=	Container,
         Capacity	=	9,
@@ -298,13 +298,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_4_Ground,
     }
 
-    item Sumk_5_L
+    item CBX_Sumk_5_L
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	70,
-        ClothingItemExtra = Sumk_5_R,
-        ClothingItemExtraOption = FannyPack_WearBack,
-        clothingExtraSubmenu = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_5_R,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.3,
         Type	=	Container,
         Capacity	=	12,
@@ -321,13 +321,13 @@ module Base
 
     }
 
-    item Sumk_5_R
+    item CBX_Sumk_5_R
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	70,
-        ClothingItemExtra = Sumk_5_L,
-        ClothingItemExtraOption = FannyPack_WearFront,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        ClothingItemExtra = CBX_Sumk_5_L,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.3,
         Type	=	Container,
         Capacity	=	12,
@@ -343,7 +343,7 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_5_Ground,
     }
 
-	item Sumk_6
+	item CBX_Sumk_6
     {
 	    DisplayCategory = Bag,		
         Type = Container,
@@ -352,7 +352,7 @@ module Base
         Icon = S6,
         WeightReduction	=	50,
         Capacity	=	18,
-        ClothingItemExtra = Sumk_6,
+        ClothingItemExtra = CBX_Sumk_6,
         ClothingItemExtraOption = FannyPack_WearBack,
         BloodLocation = Bag,
         CanBeEquipped = 010,
@@ -361,13 +361,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_6_Ground,	
     }
 
-    item Sumk_7_L
+    item CBX_Sumk_7_L
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	40,
-        ClothingItemExtra = Sumk_7_R,
-        ClothingItemExtraOption = FannyPack_WearBack,
-        clothingExtraSubmenu = FannyPack_WearFront,
+        ClothingItemExtra = CBX_Sumk_7_R,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.1,
         Type	=	Container,
         Capacity	=	6,
@@ -380,13 +380,13 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_7_Ground,	
     }
 
-    item Sumk_7_R
+    item CBX_Sumk_7_R
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	40,
-        ClothingItemExtra = Sumk_5_L,
-        ClothingItemExtraOption = FannyPack_WearFront,
-        clothingExtraSubmenu = FannyPack_WearBack,
+        ClothingItemExtra = CBX_Sumk_7_L,
+        ClothingItemExtraOption = SwapSides,
+        clothingExtraSubmenu = SwapSides,
         Weight	=	0.1,
         Type	=	Container,
         Capacity	=	6,
@@ -399,12 +399,12 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_7_Ground,	
     }
 
-    item Sumk_8P
+    item CBX_Sumk_8P
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	40,
         ClothingItem = Sumk_8P,
-        ClothingItemExtra = Sumk_8,
+        ClothingItemExtra = CBX_Sumk_8,
         ClothingItemExtraOption = FannyPack_WearBack,
         clothingExtraSubmenu = FannyPack_WearFront,
         Weight	=	0.1,
@@ -422,12 +422,12 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_8_Ground,	
     }
 
-    item Sumk_8
+    item CBX_Sumk_8
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	40,
         ClothingItem = Sumk_8,
-        ClothingItemExtra = Sumk_8P,
+        ClothingItemExtra = CBX_Sumk_8P,
         ClothingItemExtraOption = FannyPack_WearFront,
         clothingExtraSubmenu = FannyPack_WearBack,
         Weight	=	0.2,
@@ -445,7 +445,7 @@ module Base
 		WorldStaticModel = WorldItem-Sumk_8_Ground,	
     }
 
-	item RUKSAK1
+	item CBX_RUKSAK1
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	90,
@@ -467,7 +467,7 @@ module Base
 		WorldStaticModel = WorldItem-Bag_RUKSAK1_Ground,			
     }
 
-	item RUKSAK2
+	item CBX_RUKSAK2
     {
 	    DisplayCategory = Bag,		
         WeightReduction	=	90,

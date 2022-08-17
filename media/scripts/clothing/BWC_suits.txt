@@ -1,6 +1,6 @@
 module Base
 {
-    item Waterproof
+    item CBX_Waterproof
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -8,7 +8,7 @@ module Base
         ClothingItem = Waterproof,
         BodyLocation = 010,
         IconsForTexture = B3_1;B3_2;B3_3;B3_4;B3_5,
-        BloodLocation = Trousers,
+        BloodLocation = Trousers;ShirtNoSleeves,
         RunSpeedModifier = 0.41,
         BiteDefense = 20,
         ScratchDefense = 20,
@@ -19,15 +19,15 @@ module Base
 		WorldStaticModel = WorldItem-Stani_1_Ground,			
     }
 
-    item Kurtk_3
+    item CBX_Kurtk_3
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Big Black cloak ,
+        DisplayName = Big Black cloak,
         ClothingItem = Kurtk_3,
         BodyLocation = 101,
         Icon = B1_4,
-        BloodLocation = Trousers,
+        BloodLocation = LongJacket;Trousers,
         RunSpeedModifier = 0.75,
         NeckProtectionModifier = 0.8,
         BiteDefense = 20,
@@ -41,7 +41,7 @@ module Base
 		WorldStaticModel = WorldItem-Kurtk_3_Ground,			
     }
 
-	item KOMB
+	item CBX_KOMB
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,

@@ -1,6 +1,6 @@
 module Base
 {
-	item kupalnuk
+	item CBX_kupalnuk
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -13,22 +13,7 @@ module Base
 		WorldStaticModel = SwimSuit_Ground,
     }
 
-	item Glasses_1
-	{
-	    DisplayCategory = Accessory,	
-		Type = Clothing,
-		DisplayName = Glasses Welder,
-		ClothingItem = Glasses_1,
-		BodyLocation = Eyes,
-		Icon = A1_10,
-		Weight = 0.1,
-		Cosmetic = TRUE,
-		ChanceToFall = 10,
-        Insulation = 0.25,
-		WorldStaticModel = WorldItem-Ochi_1_Ground,	
-	}
-
-	item tanktops
+	item CBX_CropTop
 	{
        DisplayCategory = Clothing,		
 		Type 			 = Clothing,
@@ -44,7 +29,7 @@ module Base
 		WorldStaticModel = BulletVest_Ground,		
 	}
 
-	item tanktops1
+	item CBX_CropTop_White
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -60,7 +45,7 @@ module Base
 		WorldStaticModel = BulletVest_Ground,		
 	}
 
-	item PAN_2
+	item CBX_PAN_2
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -73,7 +58,7 @@ module Base
 		WorldStaticModel = Underpants_Ground,
 	}
 
-	item PAN_3
+	item CBX_PAN_3
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -86,7 +71,7 @@ module Base
 		WorldStaticModel = Underpants_Ground,
 	}
 
-	item PAN_4
+	item CBX_PAN_4
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -99,37 +84,9 @@ module Base
 		WorldStaticModel = Underpants_Ground,
 	}
 
-	item Glasses_2
+	item CBX_BOOT_1
 	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses 80s,
-		ClothingItem = Glasses_2,
-		BodyLocation = Eyes,
-		IconsForTexture = OH_1;OH_2;OH_3;OH_4;OH_5,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-		WorldStaticModel = WorldItem-Ochi_2_Ground,	
-	}
-
-	item Glasses_3
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses 80s,
-		ClothingItem = Glasses_3,
-		BodyLocation = Eyes,
-		IconsForTexture = OH2_1;OH2_2;OH2_3;OH2_4;OH2_5,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-		WorldStaticModel = WorldItem-Ochi_3_Ground,	
-	}
-
-	item BOOT_1
-	{
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Stomper Boots,
 		ClothingItem = BOOT_1,
@@ -148,120 +105,8 @@ module Base
         WaterResistance = 0.8,
         WorldStaticModel = WorldItem-Boot1_Ground,		
 	}
-
-	item OHI_1
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses OHI 1,
-		ClothingItem = OHI_1,
-		BodyLocation = Eyes,
-		Icon = OHI_1,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item OHI_2
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses OHI 2,
-		ClothingItem = OHI_2,
-		BodyLocation = Eyes,
-		Icon = OHI_2,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item OHI_3
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses OHI 3,
-		ClothingItem = OHI_3,
-		BodyLocation = Eyes,
-		Icon = OHI_3,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item OHI_4
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses OHI 4,
-		ClothingItem = OHI_4,
-		BodyLocation = Eyes,
-		Icon = OHI_4,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item OHI_5
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses OHI 5,
-		ClothingItem = OHI_5,
-		BodyLocation = Eyes,
-		Icon = OHI_5,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item OHI_6
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses OHI 6,
-		ClothingItem = OHI_6,
-		BodyLocation = Eyes,
-		Icon = OHI_6,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item OHI_7
-	{
-	    DisplayCategory = Accessory,	
-		Type = Clothing,
-		DisplayName = Glasses OHI 7,
-		ClothingItem = OHI_7,
-		BodyLocation = Eyes,
-		Icon = OHI_7,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item OHI_8
-	{
-	    DisplayCategory = Accessory,		
-		Type = Clothing,
-		DisplayName = Glasses OHI 8,
-		ClothingItem = OHI_8,
-		BodyLocation = Eyes,
-		Icon = OHI_8,
-		Weight = 0.01,
-		Cosmetic = TRUE,
-		ChanceToFall = 50,
-        WorldStaticModel = WorldItem-OHI_1_Ground,	
-	}
-
-	item SK1
+        FabricType = Cotton,
+	item CBX_SK1
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -275,7 +120,7 @@ module Base
 		WorldStaticModel = SwimSuit_Ground,
    }
 
-	item PAN_5
+	item CBX_PAN_5
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -288,7 +133,7 @@ module Base
 		WorldStaticModel = WorldItem-PAN_5_Ground,
 	}
 
-	item PAN_6
+	item CBX_PAN_6
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -301,7 +146,7 @@ module Base
 		WorldStaticModel = WorldItem-PAN_5_Ground,
 	}
 
-	item PAN_7
+	item CBX_PAN_7
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -311,10 +156,11 @@ module Base
 		IconsForTexture = PANS4_1;PANS4_2;PANS4_3;PANS4_4;PANS4_5;PANS4_6;PANS4_7;PANS4_8;PANS4_9;PANS4_10,
 		BloodLocation = Shirt,
 		Weight = 0.01,
+        FabricType = Cotton,		
 		WorldStaticModel = SwimSuit_Ground,
 	}
 
-	item KOF1
+	item CBX_KOF1
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -330,7 +176,7 @@ module Base
 	}
 
 
-	item KOF2
+	item CBX_KOF2
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
@@ -345,13 +191,13 @@ module Base
         WorldStaticModel = Jumper_Ground,	
 	}
 
-	item LIF1
+	item CBX_LIF1
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Brassiere,
 		ClothingItem = LIF1,
-		BodyLocation = TankTop,
+		BodyLocation = UnderwearTop,
 		Icon = LIF1,
 		BloodLocation = Shirt,
 		Weight = 0.01,
@@ -360,13 +206,13 @@ module Base
 	}
 
 
-	item LIF1_1
+	item CBX_LIF1_1
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Brassiere,
 		ClothingItem = LIF1_1,
-		BodyLocation = TankTop,
+		BodyLocation = UnderwearTop,
 		Icon = LIF1,
 		BloodLocation = Shirt,
 		Weight = 0.01,
@@ -374,13 +220,13 @@ module Base
 		WorldStaticModel = Bikini_Ground,
 	}
 
-	item LIF2
+	item CBX_LIF2
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Brassiere 2,
 		ClothingItem = LIF2,
-		BodyLocation = TankTop,
+		BodyLocation = UnderwearTop,
 		IconsForTexture = LIF2_1;LIF2_2;LIF2_3;LIF2_4;LIF2_5;LIF2_6;LIF2_7;LIF2_8;LIF2_9;LIF2_10;LIF2_11;LIF2_12;LIF2_13;LIF2_14;LIF2_15,
 		BloodLocation = Shirt,
 		Weight = 0.01,
@@ -388,13 +234,13 @@ module Base
 		WorldStaticModel = Bikini_Ground,
 	}
 
-	item LIF3
+	item CBX_LIF3
 	{
        DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Brassiere 3,
 		ClothingItem = LIF3,
-		BodyLocation = TankTop,
+		BodyLocation = UnderwearTop,
 		IconsForTexture = LIF3_1;LIF3_2;LIF3_3;LIF3_4;LIF3_5;LIF3_6;LIF3_7;LIF3_8;LIF3_9;LIF3_10,
 		BloodLocation = Shirt,
 		Weight = 0.01,

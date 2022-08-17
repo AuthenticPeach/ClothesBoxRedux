@@ -1,7 +1,8 @@
-name=0ClothesBOX0
-id=2507488373
+name=ClothesBox Redux
+id=ClothesBoxRedux
 description=Spawns unique and fun clothing on zombies!
 poster=poster.png
+poster=0.png
 poster=1.png
 poster=2.png
 poster=3.png

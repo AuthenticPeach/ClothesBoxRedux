@@ -8,6 +8,7 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_UnderlayMasksFolder>media/textures/Clothes/Masks2</m_UnderlayMasksFolder>
+	<m_Masks>2</m_Masks>	
 	<textureChoices>clothes\A1</textureChoices>
 	<textureChoices>clothes\A2</textureChoices>
 	<textureChoices>clothes\A3</textureChoices>

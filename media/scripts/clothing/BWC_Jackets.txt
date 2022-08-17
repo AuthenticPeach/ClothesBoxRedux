@@ -1,6 +1,6 @@
 module Base
 {
-    item Bomber
+    item CBX_Bomber
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -19,14 +19,14 @@ module Base
         WorldStaticModel = WorldItem-Bomber_Ground,
     }
 
-    item Kurtk_1
+    item CBX_Kurtk_1
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Jacket long,
         ClothingItem = Kurtk_1,
         BodyLocation = Jacket,
-        BloodLocation = Jacket,		
+        BloodLocation = LongJacket,		
         IconsForTexture = B2_1;B2_2;B2_3;B2_4;B2_5;B2_6;B2_7;B2_8,
         BiteDefense = 20,
         ScratchDefense = 30,		
@@ -39,14 +39,14 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_1_Ground,
     }
 
-    item Kurtk_2
+    item CBX_Kurtk_2
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Coat,
         ClothingItem = Kurtk_2,
         BodyLocation = Jacket,
-        BloodLocation = Jacket,		
+        BloodLocation = LongJacket,		
         IconsForTexture = A1_1;A1_2;A1_3;A1_4;A1_5;A1_6;A1_7,
         BiteDefense = 20,
         ScratchDefense = 40,
@@ -60,7 +60,7 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_2_Ground,
     }
 
-    item Kurtk_4
+    item CBX_Kurtk_4
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -81,7 +81,7 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_4_Ground,
     }
 
-    item Vest_ForemanOPEN
+    item CBX_Vest_ForemanOPEN
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -98,24 +98,7 @@ module Base
         WorldStaticModel = HuntingVest_Ground,
     }
 
-    item Vest_Foreman
-    {
-       DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = Foreman Vest,
-        ClothingItem = Vest_Foreman,
-        ClothingItemExtra = Vest_ForemanOPEN,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = TorsoExtra,
-        BloodLocation = ShirtNoSleeves,
-        Icon = ForemanVest,
-        Insulation = 0.70,
-        WindResistance = 0.55,
-        WorldStaticModel = HuntingVest_Ground,
-    }
-
-    item Vest_HighVizOPEN
+    item CBX_Vest_HighVizOPEN
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -132,24 +115,7 @@ module Base
         WorldStaticModel = HuntingVest_Ground,
     }
 
-    item Vest_HighViz
-    {
-       DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = High Visibility Vest,
-        ClothingItem = Vest_HighViz,
-        ClothingItemExtra = Vest_HighVizOPEN,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = TorsoExtra,
-        BloodLocation = ShirtNoSleeves,
-        Icon = ConstructionVest,
-        Insulation = 0.1,
-        WindResistance = 0.05,
-        WorldStaticModel = HuntingVest_Ground,
-    }
-
-    item Vest_Hunting_CamoGreenOPEN
+    item CBX_Vest_Hunting_CamoGreenOPEN
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -166,24 +132,7 @@ module Base
         WorldStaticModel = HuntingVest_Ground,
     }
 
-    item Vest_Hunting_CamoGreen
-    {
-       DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = Green Camo Hunting Vest,
-        ClothingItem = Vest_Hunting_CamoGreen,
-        ClothingItemExtra = Vest_Hunting_CamoGreennOPEN,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = TorsoExtra,
-        BloodLocation = ShirtNoSleeves,
-        Icon = Huntingvest_Camo,
-        Insulation = 0.70,
-        WindResistance = 0.80,
-        WorldStaticModel = HuntingVest_Ground,
-    }
-
-    item Vest_Hunting_CamoOPEN
+    item CBX_Vest_Hunting_CamoOPEN
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -200,24 +149,7 @@ module Base
         WorldStaticModel = HuntingVest_Ground,
     }
 
-    item Vest_Hunting_Camo
-    {
-       DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = Camo Hunting Vest,
-        ClothingItem = Vest_Hunting_Camo,
-        ClothingItemExtra = Vest_Hunting_CamoOPEN,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = TorsoExtra,
-        BloodLocation = ShirtNoSleeves,
-        Icon = Huntingvest_Camo,
-        Insulation = 0.8,
-        WindResistance = 0.65,
-        WorldStaticModel = HuntingVest_Ground,
-    }
-
-    item Vest_Hunting_GreyOPEN
+    item CBX_Vest_Hunting_GreyOPEN
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -234,24 +166,7 @@ module Base
         WorldStaticModel = HuntingVest_Ground,
     }
 
-    item Vest_Hunting_Grey
-    {
-       DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = Grey Hunting Vest,
-        ClothingItem = Vest_Hunting_Grey,
-        ClothingItemExtra = Vest_Hunting_GreyOPEN,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = TorsoExtra,
-        BloodLocation = ShirtNoSleeves,
-        Icon = Huntingvest_Grey,
-        Insulation = 0.90,
-        WindResistance = 0.80,
-        WorldStaticModel = HuntingVest_Ground,
-    }
-
-    item Vest_Hunting_OrangeOPEN
+    item CBX_Vest_Hunting_OrangeOPEN
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -268,24 +183,7 @@ module Base
         WorldStaticModel = HuntingVest_Ground,
     }
 
-    item Vest_Hunting_Orange
-    {
-       DisplayCategory = Clothing,		
-        Type = Clothing,
-        DisplayName = Orange Hunting Vest,
-        ClothingItem = Vest_Hunting_Orange,
-        ClothingItemExtra = Vest_Hunting_OrangeOPEN,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
-        BodyLocation = TorsoExtra,
-        BloodLocation = ShirtNoSleeves,
-        Icon = Huntingvest_Orange,
-        Insulation = 0.75,
-        WindResistance = 0.75,
-        WorldStaticModel = HuntingVest_Ground,
-    }
-
-    item KOS
+    item CBX_KOS
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
@@ -307,15 +205,15 @@ module Base
         WorldStaticModel = WorldItem-KOS_Ground,
     }
 
-    item SP1OP
+    item CBX_SP1OP
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Sport Jacket,
+        DisplayName = Wind Breaker,
         ClothingItem = SP1OP,
-        ClothingItemExtra = SP1,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_SP1,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         IconsForTexture = SP1_1;SP1_2;SP1_3;SP1_4;SP1_5;SP1_6;SP1_7;SP1_8;SP1_9;SP1_10,
@@ -327,15 +225,15 @@ module Base
         WorldStaticModel = WorldItem-Sportvika_Ground,
     }
 
-    item SP1
+    item CBX_SP1
     {
        DisplayCategory = Clothing,	
         Type = Clothing,
         DisplayName = Sport Jacket,
         ClothingItem = SP1,
-        ClothingItemExtra = SP1OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_SP1OP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         IconsForTexture = SP1_1;SP1_2;SP1_3;SP1_4;SP1_5;SP1_6;SP1_7;SP1_8;SP1_9;SP1_10,
@@ -347,15 +245,15 @@ module Base
         WorldStaticModel = WorldItem-Sportvika_Ground,
     }
 
-    item Kurtk_5OP
+    item CBX_Kurtk_5OP
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Warm Jacket,
+        DisplayName = Caridgan Sweater,
         ClothingItem = Kurtk_5OP,
-        ClothingItemExtra = Kurtk_5,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_Kurtk_5,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         IconsForTexture = JEEN_1;JEEN_2;JEEN_3;JEEN_4;JEEN_5;JEEN_6;JEEN_7;JEEN_8;JEEN_9;JEEN_10,
@@ -370,15 +268,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_5_Ground,
     }
 
-    item Kurtk_5
+    item CBX_Kurtk_5
     {
        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Warm Jacket,
+        DisplayName = Caridgan Sweater,
         ClothingItem = Kurtk_5,
-        ClothingItemExtra = Kurtk_5OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_Kurtk_5OP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         IconsForTexture = JEEN_1;JEEN_2;JEEN_3;JEEN_4;JEEN_5;JEEN_6;JEEN_7;JEEN_8;JEEN_9;JEEN_10,
@@ -392,15 +290,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_5_Ground,
     }
 
-    item Kurtk_6OP
+    item CBX_Kurtk_6OP
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Jacket with collar,
+        DisplayName = Samurai Bomber Jacket,
         ClothingItem = Kurtk_6OP,
-        ClothingItemExtra = Kurtk_6,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_Kurtk_6,
+        ClothingItemExtraOption = RollDownSleeves,
+        clothingExtraSubmenu = RollUpSleeves,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         IconsForTexture = CU_1;CU_2;CU_3;CU_4;CU_5;CU_6;CU_7;CU_8;CU_9;CU_10,
@@ -415,15 +313,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_6_Ground,
     }
 
-    item Kurtk_6
+    item CBX_Kurtk_6
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Jacket with collar,
+        DisplayName = Samurai Bomber Jacket,
         ClothingItem = Kurtk_6,
-        ClothingItemExtra = Kurtk_6OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_Kurtk_6OP,
+        ClothingItemExtraOption = RollUpSleeves,
+        clothingExtraSubmenu = RollDownSleeves,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         IconsForTexture = CU_1;CU_2;CU_3;CU_4;CU_5;CU_6;CU_7;CU_8;CU_9;CU_10,
@@ -438,17 +336,17 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_6_Ground,
     }
 
-    item RUBOP
+    item CBX_RUBOP
     {
-       DisplayCategory = Clothing,	
+        DisplayCategory = Clothing,	
         Type = Clothing,
-        DisplayName = Denim shirt with collar,
+        DisplayName = Long Jacket,
         ClothingItem = RUBOP,
-        ClothingItemExtra = RUB,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_RUB,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
-        BloodLocation = Jacket,
+        BloodLocation = LongJacket,
         IconsForTexture = RUB1_1;RUB1_2;RUB1_3;RUB1_4;RUB1_5;RUB1_6;RUB1_7;RUB1_8;RUB1_9;RUB1_10;RUB1_11;RUB1_12;RUB1_13;RUB1_14;RUB1_15;RUB1_16;RUB1_17;RUB1_18;RUB1_19;RUB1_20,
         BiteDefense = 10,
         ScratchDefense = 30,		
@@ -459,17 +357,17 @@ module Base
         WorldStaticModel = WorldItem-RUB_Ground,
     }
 
-    item RUB
+    item CBX_RUB
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Denim shirt with collar,
+        DisplayName = Long Jacket,
         ClothingItem = RUB,
-        ClothingItemExtra = RUBOP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_RUBOP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = Jacket,
-        BloodLocation = Jacket,
+        BloodLocation = LongJacket,
         IconsForTexture = RUB1_1;RUB1_2;RUB1_3;RUB1_4;RUB1_5;RUB1_6;RUB1_7;RUB1_8;RUB1_9;RUB1_10;RUB1_11;RUB1_12;RUB1_13;RUB1_14;RUB1_15;RUB1_16;RUB1_17;RUB1_18;RUB1_19;RUB1_20,
         BiteDefense = 10,
         ScratchDefense = 30,		
@@ -480,15 +378,15 @@ module Base
         WorldStaticModel = WorldItem-RUB_Ground,
     }
 
-    item Kurtk_7OP
+    item CBX_Kurtk_7OP
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Classic Cloak,
         ClothingItem = Kurtk_7OP,
-        ClothingItemExtra = Kurtk_7,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_Kurtk_7,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS2_1;PLAS2_2;PLAS2_3;PLAS2_4;PLAS2_5,
@@ -504,15 +402,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_7_Ground,
     }
 
-    item Kurtk_7
+    item CBX_Kurtk_7
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
         DisplayName = Classic Cloak,
         ClothingItem = Kurtk_7,
-        ClothingItemExtra = Kurtk_7OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_Kurtk_7OP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS2_1;PLAS2_2;PLAS2_3;PLAS2_4;PLAS2_5,
@@ -528,15 +426,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_7_Ground,
     }
 
-    item Kurtk_7_1OP
+    item CBX_Kurtk_7_1OP
     {
-       DisplayCategory = Clothing,	
+        DisplayCategory = Clothing,	
         Type = Clothing,
-        DisplayName = Classic Leather Cloak,
+        DisplayName = Detective Trench Coat,
         ClothingItem = Kurtk_7_1OP,
-        ClothingItemExtra = Kurtk_7_1,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_Kurtk_7_1,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS2_6;PLAS2_7;PLAS2_8;PLAS2_9;PLAS2_10,
@@ -552,15 +450,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_7_Ground,
     }
 
-    item Kurtk_7_1
+    item CBX_Kurtk_7_1
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Classic Leather Cloak,
+        DisplayName = Detective Trench Coat,
         ClothingItem = Kurtk_7_1,
-        ClothingItemExtra = Kurtk_7_1OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_Kurtk_7_1OP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS2_6;PLAS2_7;PLAS2_8;PLAS2_9;PLAS2_10,
@@ -576,15 +474,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_7_Ground,
     }
 
-    item Kurtk_8OP
+    item CBX_Kurtk_8OP
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Warm cloak,
+        DisplayName = Fuzzy Coat,
         ClothingItem = Kurtk_8OP,
-        ClothingItemExtra = Kurtk_8,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_Kurtk_8,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS3_1;PLAS3_2;PLAS3_3;PLAS3_4;PLAS3_5;PLAS3_6;PLAS3_7;PLAS3_8;PLAS3_9;PLAS3_10,
@@ -601,15 +499,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_8_Ground,
     }
 
-    item Kurtk_8
+    item CBX_Kurtk_8
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Warm cloak,
+        DisplayName = Fuzzy Coat,
         ClothingItem = Kurtk_8,
-        ClothingItemExtra = Kurtk_8OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_Kurtk_8OP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS3_1;PLAS3_2;PLAS3_3;PLAS3_4;PLAS3_5;PLAS3_6;PLAS3_7;PLAS3_8;PLAS3_9;PLAS3_10,
@@ -626,15 +524,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_8_Ground,
    }
 
-    item Kurtk_9OP
+    item CBX_Kurtk_9OP
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Jacket with a hood,
+        DisplayName = Tactical Coat with Hood,
         ClothingItem = Kurtk_9OP,
-        ClothingItemExtra = Kurtk_9,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_Kurtk_9,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
         BloodLocation = Jacket,
         IconsForTexture = PG11_1;PG1_2;PG1_3;PG1_4;PG1_5;PG1_6;PG1_7;PG1_8;PG1_9;PG1_10;PG1_11;PG1_12;PG1_13;PG1_14;PG1_15,
@@ -649,15 +547,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_9_Ground,
     }
 
-    item Kurtk_9
+    item CBX_Kurtk_9
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Jacket with a hood,
+        DisplayName = Tactical Coat with Hood,
         ClothingItem = Kurtk_9,
-        ClothingItemExtra = Kurtk_9OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_Kurtk_9OP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = JacketHat,
         BloodLocation = Jacket,
         IconsForTexture = PG11_1;PG1_2;PG1_3;PG1_4;PG1_5;PG1_6;PG1_7;PG1_8;PG1_9;PG1_10;PG1_11;PG1_12;PG1_13;PG1_14;PG1_15,
@@ -672,15 +570,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_9_Ground,
    }
 
-    item Kurtk_10OP
+    item CBX_Kurtk_10OP
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Modern Leather Cloak,
+        DisplayName = Chesterfield Coat,
         ClothingItem = Kurtk_10OP,
-        ClothingItemExtra = Kurtk_10,
-        ClothingItemExtraOption = UpHoodie,
-        clothingExtraSubmenu = DownHoodie,
+        ClothingItemExtra = CBX_Kurtk_10,
+        ClothingItemExtraOption = ClosedJacket,
+        clothingExtraSubmenu = JacketOpen,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS4_1;PLAS4_2;PLAS4_3;PLAS4_4;PLAS4_5;PLAS4_6;PLAS4_7;PLAS4_8;PLAS4_9;PLAS4_10,
@@ -696,15 +594,15 @@ module Base
         WorldStaticModel = WorldItem-Kurtk_10_Ground,
     }
 
-    item Kurtk_10
+    item CBX_Kurtk_10
     {
-       DisplayCategory = Clothing,		
+        DisplayCategory = Clothing,		
         Type = Clothing,
-        DisplayName = Modern Leather Cloak,
+        DisplayName = Chesterfield Coat,
         ClothingItem = Kurtk_10,
-        ClothingItemExtra = Kurtk_10OP,
-        ClothingItemExtraOption = DownHoodie,
-        clothingExtraSubmenu = UpHoodie,
+        ClothingItemExtra = CBX_Kurtk_10OP,
+        ClothingItemExtraOption = JacketOpen,
+        clothingExtraSubmenu = ClosedJacket,
         BodyLocation = Jacket,
         BloodLocation = LongJacket,
         IconsForTexture = PLAS4_1;PLAS4_2;PLAS4_3;PLAS4_4;PLAS4_5;PLAS4_6;PLAS4_7;PLAS4_8;PLAS4_9;PLAS4_10,
@@ -719,7 +617,4 @@ module Base
         Weight = 2.5,
         WorldStaticModel = WorldItem-Kurtk_10_Ground,
     }
-
-
-
 }

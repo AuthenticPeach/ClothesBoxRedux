@@ -4,7 +4,7 @@
 	<m_MaleOutfits> <m_Name>CBXGenericbox2</m_Name>
 		<m_Guid>4fcf83f0-b20c-4106-8b92-1699d1094zzz</m_Guid>
 		<m_Top>false</m_Top>
-		<m_items>
+		<m_items> <!--  Kurtk_7OP -->
 			<itemGUID>boxcloth-time-dung-0000-000000000081</itemGUID>
 			<subItems>
 				<itemGUID>boxcloth-time-dung-0000-000000000082</itemGUID>
@@ -44,9 +44,9 @@
 			</subItems>
 
 		</m_items>
-		<m_items>
+		<m_items> <!--  Trousers_CamoUrban -->
 			<itemGUID>2424958a-64aa-4494-aeba-ad05a08d5917</itemGUID>
-			<subItems>
+			<subItems> <!--  Trousers_CamoGreen -->
 				<itemGUID>d325b65d-497d-4c77-8919-74a65172cb94</itemGUID>
 			</subItems>
 			<subItems> <!--  ST3  -->
@@ -191,7 +191,7 @@
 			<itemGUID>boxcloth-time-dung-0000-000000000087</itemGUID>
 		</m_items>
 		<m_items>
-			<probability>0.05</probability> <!--  Sumk_1_L  -->
+			<probability>0.01</probability> <!--  Sumk_1_L  -->
 			<itemGUID>boxcloth-time-dung-0000-000000000017</itemGUID>
 			<subItems><!--  Sumk_4_L  -->
 				<itemGUID>boxcloth-time-dung-0000-000000000062</itemGUID>
@@ -604,7 +604,7 @@
 		</m_items>
 
 		<m_items>
-			<probability>0.05</probability>
+			<probability>0.01</probability>
 			<itemGUID>boxcloth-time-dung-0000-000000000017</itemGUID>
 			<subItems><!--  Sumk_1_R  -->
 				<itemGUID>boxcloth-time-dung-0000-000000000018</itemGUID>
@@ -1356,7 +1356,7 @@
 			<itemGUID>48efaf62-6a65-474a-8773-886e05ea7632</itemGUID>
 		</m_items>
 		<m_items>  <!--RUKSAK1 -->
-			<probability>0.1</probability>
+			<probability>0.01</probability>
 			<itemGUID>boxcloth-time-dung-0000-000000000109</itemGUID>
 			<subItems> <!-- Ras_ohota -->
 				<itemGUID>boxcloth-time-dung-0000-000000000009</itemGUID>

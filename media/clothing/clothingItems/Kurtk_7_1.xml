@@ -6,6 +6,7 @@
 	<m_Static>false</m_Static>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>	
 	<textureChoices>clothes\PLAS2_6</textureChoices>
 	<textureChoices>clothes\PLAS2_7</textureChoices>
 	<textureChoices>clothes\PLAS2_8</textureChoices>
