@@ -8,13 +8,13 @@ ClothingBox.tab_addMagProcedural_ArmyCaps  = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.CAPARM_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_CAPARM_1");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.CAPARM_2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_CAPARM_2");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.CAPARM_3");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_CAPARM_3");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.CAPARM_4");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_CAPARM_4");
   table.insert(ProceduralDistributions.list[x].items, count);  
 end
 
@@ -24,9 +24,9 @@ ClothingBox.tab_addMagProcedural_Sumk = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_2_L");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_2_L");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_1M_L");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_1M_L");
   table.insert(ProceduralDistributions.list[x].items, count);           
 end
 
@@ -37,9 +37,9 @@ ClothingBox.tab_addMagProcedural_Sumk_junk = function(x,count)
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].junk = ProceduralDistributions.list[x].junk or {};
   ProceduralDistributions.list[x].junk.items = ProceduralDistributions.list[x].junk.items or {};
-  table.insert(ProceduralDistributions.list[x].junk.items,"Base.Sumk_2_L");
+  table.insert(ProceduralDistributions.list[x].junk.items,"Base.CBX_Sumk_2_L");
   table.insert(ProceduralDistributions.list[x].junk.items, count);
-  table.insert(ProceduralDistributions.list[x].junk.items,"Base.Sumk_1M_L");
+  table.insert(ProceduralDistributions.list[x].junk.items,"Base.CBX_Sumk_1M_L");
   table.insert(ProceduralDistributions.list[x].junk.items, count);
 end
 
@@ -49,15 +49,15 @@ ClothingBox.tab_addMagProcedural_Webbing = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.Ras_army");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Ras_army");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Ras_ohota");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Ras_ohota");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_6");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_6");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_8");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_8");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_7_R");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_7_R");
   table.insert(ProceduralDistributions.list[x].items, count);     
 end
 
@@ -67,39 +67,39 @@ ClothingBox.tab_addMagProcedural_Jackets = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.Bomber");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Bomber");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_1");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_2");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_3");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_3");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_4");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_4");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.KOS");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_KOS");
   table.insert(ProceduralDistributions.list[x].items, count);     
-  table.insert(ProceduralDistributions.list[x].items,"Base.SP1OP");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_SP1OP");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_5");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_5");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_6");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_6");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.RUB");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_RUB");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_7");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_7");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_7_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_7_1");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_8");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_8");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_9");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_9");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_10");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_10");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.KOF1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_KOF1");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.KOF2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_KOF2");
   table.insert(ProceduralDistributions.list[x].items, count); 
 end
 
@@ -109,13 +109,13 @@ ClothingBox.tab_addMagProcedural_SatchelBags = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_1_L");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_1_L");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_3_L");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_3_L");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_4_L");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_4_L");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Sumk_5_L");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Sumk_5_L");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
 
@@ -125,13 +125,13 @@ ClothingBox.tab_addMagProcedural_GoodBackpacks = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.HR");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_HR");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.ANAT");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_ANAT");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.RUKSAK");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_RUKSAK");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.RUKSAK2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_RUKSAK2");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
 
@@ -141,29 +141,29 @@ ClothingBox.tab_addMagProcedural_Glasses = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.Glasses_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Glasses_1");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Glasses_2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Glasses_2");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.Glasses_3");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Glasses_3");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_1");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_2");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_3");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_3");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_4");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_4");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_4");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_4");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_5");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_5");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_6");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_6");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_7");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_7");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.OHI_8");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_OHI_8");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
 
@@ -173,19 +173,19 @@ ClothingBox.tab_addMagProcedural_Underwear = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.PAN_5");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_PAN_5");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.PAN_6");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_PAN_6");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.PAN_7");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_PAN_7");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.LIF1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_LIF1");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.LIF1_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_LIF1_1");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.LIF2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_LIF2");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.LIF3");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_LIF3");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
 
@@ -195,15 +195,15 @@ ClothingBox.tab_addMagProcedural_Swimwear = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.kupalnuk");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_kupalnuk");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.PAN_2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_PAN_2");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.PAN_3");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_PAN_3");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.PAN_4");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_PAN_4");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.SK1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_SK1");
   table.insert(ProceduralDistributions.list[x].items, count);       
 end
 
@@ -213,7 +213,7 @@ ClothingBox.tab_addMagProcedural_Boots = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.BOOT_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_BOOT_1");
   table.insert(ProceduralDistributions.list[x].items, count);           
 end
 
@@ -223,7 +223,7 @@ ClothingBox.tab_addMagProcedural_Bellbottoms = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.BOOT_1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_BOOT_1");
   table.insert(ProceduralDistributions.list[x].items, count);           
 end
 
@@ -233,13 +233,13 @@ ClothingBox.tab_addMagProcedural_Fitness = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.PAN");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_PAN");
   table.insert(ProceduralDistributions.list[x].items, count);  
-  table.insert(ProceduralDistributions.list[x].items,"Base.SP2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_SP2");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.SP1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_SP1");
   table.insert(ProceduralDistributions.list[x].items, count); 
-  table.insert(ProceduralDistributions.list[x].items,"Base.SK1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_SK1");
   table.insert(ProceduralDistributions.list[x].items, count);          
 end
 
@@ -249,15 +249,15 @@ ClothingBox.tab_addMagProcedural_SkimpyClothing = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.tanktops");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_CropTop");
   table.insert(ProceduralDistributions.list[x].items, count);    
-  table.insert(ProceduralDistributions.list[x].items,"Base.tanktops1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_CropTop_White");
   table.insert(ProceduralDistributions.list[x].items, count);   
-  table.insert(ProceduralDistributions.list[x].items,"Base.ST4");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_ST4");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.ST5");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_ST5");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.SHO1");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_SHO1");
   table.insert(ProceduralDistributions.list[x].items, count);        
 end
 
@@ -267,15 +267,15 @@ ClothingBox.tab_addMagProcedural_WorkClothing = function(x,count)
   ProceduralDistributions.list = ProceduralDistributions.list or {};
   ProceduralDistributions.list[x] = ProceduralDistributions.list[x] or {};
   ProceduralDistributions.list[x].items = ProceduralDistributions.list[x].items or {};
-  table.insert(ProceduralDistributions.list[x].items,"Base.KOMB");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_KOMB");
   table.insert(ProceduralDistributions.list[x].items, count);      
-  table.insert(ProceduralDistributions.list[x].items,"Base.Waterproof");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Waterproof");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.Trousers_Worker");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Trousers_Worker");
   table.insert(ProceduralDistributions.list[x].items, count);
-  table.insert(ProceduralDistributions.list[x].items,"Base.ST2");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_ST2");
   table.insert(ProceduralDistributions.list[x].items, count);   
-  table.insert(ProceduralDistributions.list[x].items,"Base.Kurtk_4");
+  table.insert(ProceduralDistributions.list[x].items,"Base.CBX_Kurtk_4");
   table.insert(ProceduralDistributions.list[x].items, count);        
 end
 
