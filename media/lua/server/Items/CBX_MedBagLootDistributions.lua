@@ -1,7 +1,7 @@
 require 'Items/SuburbsDistributions'
 
 -- Medic Bag filler medical items
-local Sumk_2_L = {
+local CBX_Sumk_2_L = {
 	rolls = 2,
 	items = {
             "AlcoholWipes", 200,
@@ -26,9 +26,9 @@ local Sumk_2_L = {
 	},
 	fillRand = 0,
 };
-SuburbsDistributions["Sumk_2_L"] = Sumk_2_L; 
+SuburbsDistributions["CBX_Sumk_2_L"] = CBX_Sumk_2_L; 
 
-local Sumk_1M_L = {
+local CBX_Sumk_1M_L = {
 	rolls = 2,
 	items = {
             "AlcoholWipes", 200,
@@ -53,4 +53,4 @@ local Sumk_1M_L = {
 	},
 	fillRand = 0,
 };
-SuburbsDistributions["Sumk_1M_L"] = Sumk_1M_L; 
+SuburbsDistributions["CBX_Sumk_1M_L"] = CBX_Sumk_1M_L; 
