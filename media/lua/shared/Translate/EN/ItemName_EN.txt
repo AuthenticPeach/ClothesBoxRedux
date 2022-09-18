@@ -5,7 +5,7 @@ ItemName_EN = {
 	ItemName_Base.CBX_CAPARM_1 		 = "Woodland Army Cap",
 	ItemName_Base.CBX_CAPARM_2 	 	 = "Urban Army Cap",
 	ItemName_Base.CBX_CAPARM_3 		 = "Desert Army Cap",	
-	ItemName_Base.CBX_CAPARM_4 		 = "Olive Drab Patrol Cap",
+	ItemName_Base.CBX_CAPARM_4 		 = "Patrol Cap",
 
 /*BWC Bags */
 

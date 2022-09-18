@@ -51,10 +51,11 @@ module Base
 		Type = Clothing,
 		DisplayName = Bikini panties,
 		ClothingItem = PAN_2,
-		BodyLocation = Underwear,
+		BodyLocation = UnderwearBottom,
 		Icon = PANS,
 		BloodLocation = Shirt,
 		Weight = 0.01,
+		CanHaveHoles = false,		
 		WorldStaticModel = Underpants_Ground,
 	}
 
@@ -64,10 +65,10 @@ module Base
 		Type = Clothing,
 		DisplayName = Bikini panties,
 		ClothingItem = PAN_3,
-		BodyLocation = Underwear,
+		BodyLocation = UnderwearBottom,
 		Icon = PANS,
-		BloodLocation = Shirt,
 		Weight = 0.01,
+		CanHaveHoles = false,		
 		WorldStaticModel = Underpants_Ground,
 	}
 
@@ -79,8 +80,8 @@ module Base
 		ClothingItem = PAN_4,
 		BodyLocation = Underwear,
 		IconsForTexture = PANS1_1;PANS1_2;PANS1_3;PANS1_4;PANS1_5;PANS1_6;PANS1_7;PANS1_8;PANS1_9;PANS1_10;PANS1_11;PANS1_12;PANS1_13;PANS1_14;PANS1_15,
-		BloodLocation = Shirt,
 		Weight = 0.01,
+		CanHaveHoles = false,		
 		WorldStaticModel = Underpants_Ground,
 	}
 
@@ -105,7 +106,7 @@ module Base
         WaterResistance = 0.8,
         WorldStaticModel = WorldItem-Boot1_Ground,		
 	}
-        FabricType = Cotton,
+	
 	item CBX_SK1
 	{
        DisplayCategory = Clothing,		
@@ -114,7 +115,7 @@ module Base
 		ClothingItem = SK1,
 		BodyLocation = Underwear,
 		IconsForTexture = SK_0;SK_1;SK_2;SK_3;SK_4;SK_5;SK_6;SK_7;SK_8;SK_9;SK_10;SK_11;SK_12;SK_13;SK_14;SK_15;SK_16,
-		BloodLocation = Shirt,
+        FabricType = Cotton,		
         ScratchDefense = 5,
 		Weight = 0.09,
 		WorldStaticModel = SwimSuit_Ground,
@@ -128,7 +129,6 @@ module Base
 		ClothingItem = PAN_5,
 		BodyLocation = Underwear,
 		IconsForTexture = PANS2_1;PANS2_2;PANS2_3;PANS2_4;PANS2_5;PANS2_6;PANS2_7;PANS2_8;PANS2_9;PANS2_10,
-		BloodLocation = Shirt,
 		Weight = 0.01,
 		WorldStaticModel = WorldItem-PAN_5_Ground,
 	}
@@ -141,7 +141,6 @@ module Base
 		ClothingItem = PAN_6,
 		BodyLocation = Underwear,
 		IconsForTexture = PANS3_1;PANS3_2;PANS3_3;PANS3_4;PANS3_5;PANS3_6;PANS3_7;PANS3_8;PANS3_9;PANS3_10,
-		BloodLocation = Shirt,
 		Weight = 0.01,
 		WorldStaticModel = WorldItem-PAN_5_Ground,
 	}
@@ -154,7 +153,6 @@ module Base
 		ClothingItem = PAN_7,
 		BodyLocation = Underwear,
 		IconsForTexture = PANS4_1;PANS4_2;PANS4_3;PANS4_4;PANS4_5;PANS4_6;PANS4_7;PANS4_8;PANS4_9;PANS4_10,
-		BloodLocation = Shirt,
 		Weight = 0.01,
         FabricType = Cotton,		
 		WorldStaticModel = SwimSuit_Ground,
@@ -199,7 +197,6 @@ module Base
 		ClothingItem = LIF1,
 		BodyLocation = UnderwearTop,
 		Icon = LIF1,
-		BloodLocation = Shirt,
 		Weight = 0.01,
         FabricType = Cotton,
 		WorldStaticModel = Bikini_Ground,
@@ -214,7 +211,6 @@ module Base
 		ClothingItem = LIF1_1,
 		BodyLocation = UnderwearTop,
 		Icon = LIF1,
-		BloodLocation = Shirt,
 		Weight = 0.01,
         FabricType = Cotton,
 		WorldStaticModel = Bikini_Ground,
@@ -228,7 +224,6 @@ module Base
 		ClothingItem = LIF2,
 		BodyLocation = UnderwearTop,
 		IconsForTexture = LIF2_1;LIF2_2;LIF2_3;LIF2_4;LIF2_5;LIF2_6;LIF2_7;LIF2_8;LIF2_9;LIF2_10;LIF2_11;LIF2_12;LIF2_13;LIF2_14;LIF2_15,
-		BloodLocation = Shirt,
 		Weight = 0.01,
         FabricType = Cotton,
 		WorldStaticModel = Bikini_Ground,
@@ -242,7 +237,6 @@ module Base
 		ClothingItem = LIF3,
 		BodyLocation = UnderwearTop,
 		IconsForTexture = LIF3_1;LIF3_2;LIF3_3;LIF3_4;LIF3_5;LIF3_6;LIF3_7;LIF3_8;LIF3_9;LIF3_10,
-		BloodLocation = Shirt,
 		Weight = 0.01,
         FabricType = Cotton,
 		WorldStaticModel = Bikini_Ground,
