@@ -222,13 +222,12 @@ module Base
         Weight	=	0.8,
         Type	=	Container,
         Capacity	=	15,
-        DisplayName	=	Hiking bag is large,
+        DisplayName	=	Messenger Bag (Left),
         BloodLocation = Bag,
         Icon = S3,
         BodyLocation = 999,
         ClothingItem = Sumk_3_L,
         CanBeEquipped = 999,
-        RunSpeedModifier = 0.80,
         ReplaceInSecondHand = Sumk_3_Dop holdingbagleft,
         ReplaceInPrimaryHand = Sumk_3_Osn holdingbagright,
 		WorldStaticModel = WorldItem-Sumk_3_Ground,	
@@ -244,13 +243,12 @@ module Base
         Weight	=	0.8,
         Type	=	Container,
         Capacity	=	15,
-        DisplayName	=	Hiking bag is large,
+        DisplayName	=	Messenger Bag (Right),
         BloodLocation = Bag,
         Icon = S3,
         BodyLocation = 999,
         ClothingItem = Sumk_3_R,
         CanBeEquipped = 989,
-        RunSpeedModifier = 0.80,
         ReplaceInSecondHand = Sumk_3_Dop holdingbagleft,
         ReplaceInPrimaryHand = Sumk_3_Osn holdingbagright,
 		WorldStaticModel = WorldItem-Sumk_3_Ground,
@@ -314,7 +312,6 @@ module Base
         BodyLocation = 999,
         ClothingItem = Sumk_5_L,
         CanBeEquipped = 999,
-        RunSpeedModifier = 0.90,
         ReplaceInSecondHand = Sumk_5_Dop holdingbagleft,
         ReplaceInPrimaryHand = Sumk_5_Osn holdingbagright,
 		WorldStaticModel = WorldItem-Sumk_5_Ground,
@@ -337,7 +334,6 @@ module Base
         BodyLocation = 999,
         ClothingItem = Sumk_5_R,
         CanBeEquipped = 989,
-        RunSpeedModifier = 0.90,
         ReplaceInSecondHand = Sumk_5_Dop holdingbagleft,
         ReplaceInPrimaryHand = Sumk_5_Osn holdingbagright,
 		WorldStaticModel = WorldItem-Sumk_5_Ground,
@@ -488,9 +484,5 @@ module Base
         ReplaceInPrimaryHand = RUKSAK2_Osn holdingbagright,
 		WorldStaticModel = WorldItem-Bag_RUKSAK2_Ground,		
     }
-
-
-
-
 
 }

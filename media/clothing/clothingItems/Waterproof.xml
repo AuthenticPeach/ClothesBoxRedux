@@ -13,9 +13,10 @@
 	<m_Masks>8</m_Masks>
 	<m_Masks>9</m_Masks>
 	<m_Masks>10</m_Masks>
-	<textureChoices>clothes\B5</textureChoices>
-	<textureChoices>clothes\B6</textureChoices>
-	<textureChoices>clothes\B7</textureChoices>
-	<textureChoices>clothes\B8</textureChoices>
-	<textureChoices>clothes\B9</textureChoices>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Overalls/Masks</m_UnderlayMasksFolder>	
+	<textureChoices>clothes\Overalls\B5</textureChoices>
+	<textureChoices>clothes\Overalls\B6</textureChoices>
+	<textureChoices>clothes\Overalls\B7</textureChoices>
+	<textureChoices>clothes\Overalls\B8</textureChoices>
+	<textureChoices>clothes\Overalls\B9</textureChoices>
 </clothingItem>
