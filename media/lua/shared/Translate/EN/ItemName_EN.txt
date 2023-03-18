@@ -126,7 +126,7 @@ ItemName_EN = {
 /*Glasses */
 
 	ItemName_Base.CBX_Glasses_1 	 = "Welder Goggles",
-	ItemName_Base.CBX_Glasses_2 	 = "Perscription Aviators",
+	ItemName_Base.CBX_Glasses_2 	 = "Prescription Aviators",
 	ItemName_Base.CBX_Glasses_3 	 = "Librarian Glasses",	
 	ItemName_Base.CBX_OHI_1 		 = "Designer Eyes Glasses",
 	ItemName_Base.CBX_OHI_2 		 = "Cat Eye Glasses",
