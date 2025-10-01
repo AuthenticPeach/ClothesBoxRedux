@@ -3,36 +3,29 @@ require 'NPCs/BodyLocations'
 --**                    THE INDIE STONE                    **
 --***********************************************************
 
--- Locations must be declared in render-order.
--- Location IDs must match BodyLocation= and CanBeEquipped= values in items.txt.
-local group = BodyLocations.getGroup("Human")
+local function addCustomBodyLocations()
+    local group = BodyLocations.getGroup("Human")
+    if not group then
+        print("BodyLocations group 'Human' not found")
+        return
+    end
 
-group:getOrCreateLocation("Ammoraz")
-group:getOrCreateLocation("101")
-group:getOrCreateLocation("010")
-group:getOrCreateLocation("999")
-group:getOrCreateLocation("989")
-group:getOrCreateLocation("888")
-group:getOrCreateLocation("898")
-group:getOrCreateLocation("SkeletonSuit")
-group:getOrCreateLocation("SlendermanSuit")
+    -- List your custom location names here
+    local names = {
+        "Ammoraz",
+        "101",
+        "010",
+        "999",
+        "888",
+        "898",
+        "SkeletonSuit",
+        "SlendermanSuit",
+    }
 
-group:setHideModel("SkeletonSuit", "Bandage")
-group:setHideModel("SkeletonSuit", "Wound")
-group:setHideModel("SkeletonSuit", "MakeUp_FullFace")
-group:setHideModel("SkeletonSuit", "MakeUp_Eyes")
-group:setHideModel("SkeletonSuit", "MakeUp_EyesShadow")
-group:setHideModel("SkeletonSuit", "MakeUp_Lips")
-group:setHideModel("SlendermanSuit", "Bandage")
-group:setHideModel("SlendermanSuit", "Wound")
-group:setHideModel("SlendermanSuit", "MakeUp_FullFace")
-group:setHideModel("SlendermanSuit", "MakeUp_Eyes")
-group:setHideModel("SlendermanSuit", "MakeUp_EyesShadow")
-group:setHideModel("SlendermanSuit", "MakeUp_Lips")
+    for _, name in ipairs(names) do
+        local loc = BodyLocation.new(group, name)
+        group:getAllLocations():add(loc)
+    end
+end
 
---group:setHideModel("Ammoraz")
---group:setHideModel("010")
---group:setHideModel("999")
---group:setHideModel("989")
---group:setHideModel("888")
---group:setHideModel("898")
+Events.OnGameBoot.Add(addCustomBodyLocations)
